@@ -1,0 +1,29 @@
+.home{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.card{
+    width: 15rem;
+    background-color: #131313;
+    padding: 1rem;
+    border-radius: 20px;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow:  20px 20px 50px gray;
+}
+
+.card img{
+    width: 100%;
+    height: 20rem;
+    border-radius: 20px;
+
+}
+
+.card h3{
+    color: white;
+}
